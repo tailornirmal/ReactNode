@@ -1,0 +1,22 @@
+{
+  "name": "nodeapptest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/www --exec babel-node --"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "2.0.0-beta11",
+    "touch-cli": "0.0.1"
+  }
+}
